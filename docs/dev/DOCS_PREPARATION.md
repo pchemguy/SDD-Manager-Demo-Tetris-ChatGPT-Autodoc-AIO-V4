@@ -62,3 +62,7 @@ Scoped autodoc preapproval; upstream completion, publication and issue closure e
 ## SPEC correction evidence
 
 Before PLAN, review identified and resolved S-001 in SPEC-REVIEW-REPORT Revision 1: interval-policy top-out must terminate at expiry even when the grounded ordinary piece has negative rows. Updated GAMEPLAY blob `b40c9ad9380df9eb8f1856a8aa6abf481f9d8ce1`; accepted scope and DOCS-005 completion retained. This bounded correction is published before dependent planning.
+
+## DOCS-006 evidence
+
+Scoped autodoc preapproval; upstream completion, publication and issue closure established. Reviewed states: `docs/dev/PLAN.md` blob `9834156264b9bc85d492b7bce333316d5c7ea8da`; `docs/dev/PLAN-REVIEW-REPORT.md` blob `f9991ea056b06ea4e1c98d66905da77ac0ef39a7`. Local links, heading spacing, diff whitespace and content-boundary checks passed. Required technical QC is retained in the adjacent report when applicable. Publication and issue closure are confirmed by Git/provider readback after this commit.
