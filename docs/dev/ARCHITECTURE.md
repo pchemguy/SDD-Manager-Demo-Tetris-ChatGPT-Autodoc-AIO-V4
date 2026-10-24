@@ -46,4 +46,4 @@ Use Vite for development/static bundling, Vitest for deterministic core/adapter 
 
 ## Detailed model
 
-DECOMPOSITION refines logical responsibilities and interfaces when established. Behavioral acceptance belongs to SPEC; file ownership belongs to layout. This architecture has no focused child documents.
+[DECOMPOSITION](DECOMPOSITION.md) refines logical responsibilities and interfaces. Behavioral acceptance belongs to SPEC; file ownership belongs to layout. This architecture has no focused child documents.

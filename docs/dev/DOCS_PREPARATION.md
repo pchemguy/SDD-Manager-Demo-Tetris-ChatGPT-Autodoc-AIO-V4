@@ -50,3 +50,7 @@ Human approved PROJECT and its gameplay/technical decisions in the latest messag
 ## DOCS-003 evidence
 
 Scoped autodoc preapproval; upstream completion, publication and issue closure established. Reviewed states: `docs/dev/ARCHITECTURE.md` blob `dab4b7456d33c3a2cc298fd8fe661bf4f5923469`. Local links, heading spacing, diff whitespace and content-boundary checks passed. Required technical QC is retained in the adjacent report when applicable. Publication and issue closure are confirmed by Git/provider readback after this commit.
+
+## DOCS-004 evidence
+
+Scoped autodoc preapproval; upstream completion, publication and issue closure established. Reviewed states: `docs/dev/DECOMPOSITION.md` blob `f177558795d0ab9421fab4807cbaa307b07b6ef2`; `docs/dev/ARCHITECTURE.md` blob `e43684b16512d0d5b293a75ff6647bfbcf414d5e`. Local links, heading spacing, diff whitespace and content-boundary checks passed. Required technical QC is retained in the adjacent report when applicable. Publication and issue closure are confirmed by Git/provider readback after this commit.
