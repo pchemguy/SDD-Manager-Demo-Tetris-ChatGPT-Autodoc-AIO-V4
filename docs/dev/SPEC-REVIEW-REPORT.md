@@ -2,7 +2,7 @@
 
 ## Current gate
 
-State: Ready for PLAN. Scope: SPEC and its three focused children, reviewed against accepted PROJECT/design. No whole-package QC, implementation, browser acceptance or installed-tool readiness is claimed. No unresolved confirmed findings.
+State: Ready for PLAN. Scope: SPEC and its three focused children, reviewed against accepted PROJECT/design. No whole-package QC, implementation, browser acceptance or installed-tool readiness is claimed. No unresolved confirmed findings; see resolved S-001 in Revision 1.
 
 ## Initial review
 
@@ -25,3 +25,9 @@ The specification owner compared every original requested capability and accepte
 | R10 | C8–C10 own input/focus, one loop, accessible controls, static delivery and both-browser application evidence. |
 
 Manual conformance found no conflicting state owner or new product subsystem. Detailed scoring, controls, SRS candidates, time ordering and encodings fill precision explicitly left to SPEC by PROJECT. Classic-only behavior is identified for staged delivery without deleting the full target. End-state wording, local child links and Markdown spacing were checked. Acceptance specifies future evidence, not fabricated passing tests. Delivery counts do not apply to SPEC.
+
+## Revision 1
+
+S-001: R4 initially called the timer’s starting contact “valid grounding” and allowed expiry only at a visible-safe pose. An ordinary piece supported above the visible board could therefore wait forever instead of triggering R1 top-out. The specification owner clarified that first contact includes negative rows and a grounded negative-row deadline expiry ends the game without merging. This is the existing R1 failure behavior, not a change to the accepted first-grounding policy.
+
+Revised `spec/GAMEPLAY.md` blob: `b40c9ad9380df9eb8f1856a8aa6abf481f9d8ce1`. Manual state-case review checked ordinary negative contact, ordinary visible contact, airborne expiry and penetrator transient overlap; only safe visible placements merge, ordinary top-out terminates, and penetration never locks while overlapping. Other reviewed inputs are unchanged. S-001 resolved; Ready for PLAN. No implementation test result is claimed.
