@@ -46,6 +46,6 @@ Maintain project-specific navigation and validated setup/check commands here as 
 
 ## Current project navigation
 
-This repository defines a static TypeScript/Canvas Tetris game. Current governing documents are the [brief](docs/dev/PROJECT.md), [architecture](docs/dev/ARCHITECTURE.md), [components](docs/dev/DECOMPOSITION.md), [specification](docs/dev/SPEC.md), [delivery plan](docs/dev/PLAN.md) and [physical layout](docs/dev/layout.md). Preparation status and decisions belong to [DOCS_PREPARATION](docs/dev/DOCS_PREPARATION.md); use HANDOFF and subsequent Git/owning records for continuation.
+This repository defines a static TypeScript/Canvas Tetris game. Current governing documents are the [brief](docs/dev/PROJECT.md), [architecture](docs/dev/ARCHITECTURE.md), [components](docs/dev/DECOMPOSITION.md), [specification](docs/dev/SPEC.md), [delivery plan](docs/dev/PLAN.md) and [physical layout](docs/dev/layout.md), and [executable TASKS](docs/dev/TASKS.md). Preparation status and decisions belong to [DOCS_PREPARATION](docs/dev/DOCS_PREPARATION.md); use HANDOFF and subsequent Git/owning records for continuation.
 
 Product source/test paths in layout are intended locations; implementation has not started. No install, build or test command is validated yet. Establish pinned dependencies and reproducible commands in the authorized implementation setup; preserve the browser and execution-host shell policies above. Read applicable nested instructions before modifying selected paths.

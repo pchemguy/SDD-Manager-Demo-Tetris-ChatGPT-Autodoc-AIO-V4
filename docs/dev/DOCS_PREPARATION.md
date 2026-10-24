@@ -17,10 +17,17 @@ One pass covers a playable classic browser Tetris baseline, Hold, ghost, 7-bag, 
 
 | Task | Current evidence / decision basis |
 | --- | --- |
-| DOCS-001 | All four existing root files retained unchanged; verification below. Default provenance scaffold integrated and remotely verified. Task list and HANDOFF established with this completion. |
-| DOCS-002 | PROJECT proposed at Git blob `83e393675474b174e2d52019ef90b7ee5ec5d0c6`; human acceptance required. Scope, seed preservation, proposal provenance and document-content boundaries reviewed. Independent read-only builder review found no scope/persistence contradictions. Clarified lateral/rotational penetration, activation on support and airborne deadline consequences; removed a preparation-process sentence. Local links, heading spacing, proposal identity and DOCS checkbox counts verified. No browser/runtime checks performed or needed for this brief. No dependent design started. |
-| DOCS-003–008 | Not started; scoped autodoc preapproval applies after prerequisites. |
-| DOCS-009 | Not started; excluded by current autodoc stop. |
+| DOCS-001 | Complete; published initialization and verified closed issue #1; retained four-file/provenance evidence below. |
+| DOCS-002 | Human accepted proposal `261504b2e484ea91aff459d1da1931142fef728a`; settled brief published in `159eee3513de13c6a9eb9659bba9d671e792f55b`; issue #2 closed/read back. |
+| DOCS-003 | Complete under autodoc preapproval; published architecture and issue #3 closed/read back. Later navigation-only link update travelled with DOCS-004. |
+| DOCS-004 | Complete under autodoc preapproval; decomposition published and issue #4 closed/read back. |
+| DOCS-005 | Complete under autodoc preapproval; SPEC/design QC and S-001 correction/recheck published; issue #5 closed/read back. See SPEC-REVIEW-REPORT Revision 1. |
+| DOCS-006 | Complete under autodoc preapproval; strategy QC published and issue #6 closed/read back. |
+| DOCS-007 | Complete under autodoc preapproval; layout/combined PLAN QC published and issue #7 closed/read back. See PLAN-REVIEW-REPORT Revision 1. |
+| DOCS-008 | Scoped preapproval applies; TASKS conformance checks passed. Submit list/report, this evidence, HANDOFF and initial checkbox together, then publish/read back and close/read back issue #8. |
+| DOCS-009 | Unchecked and unstarted; issue #9 and milestone #1 remain open at the autodoc stop. |
+
+Exact per-document identities are retained in the task-qualified evidence below and adjacent reports. TASKS contains 43 unchecked product tasks across 5 phases and 17 milestones; 37 delivery tasks, 1 standalone milestone review and 5 phase reviews. No implementation phase is activated.
 
 ## Initialization and current reset
 
@@ -37,11 +44,13 @@ One pass covers a playable classic browser Tetris baseline, Hold, ghost, 7-bag, 
 
 ## Accepted decisions for PROJECT
 
-The original request governs complete target scope. PROJECT’s named proposals cover a 10×20 board, the occupied-cell midline rule, a non-resetting first-grounding deadline, penetrator safe-landing rejection, disabled Hold while penetrator is active, ordinary settled colours, bonus reset/earning, live-setting timing, invalid-value fallback, defaults, static TypeScript/Canvas direction, SRS and exclusions. The human approved PROJECT and these decisions after the published proposal was presented. No unrelated-project approvals were imported. Exact scoring/control/encoding details remain for SPEC.
+The original request governs complete target scope. PROJECT’s accepted decisions cover a 10×20 board, the occupied-cell midline rule, a non-resetting first-grounding deadline, penetrator safe-landing rejection, disabled Hold while penetrator is active, ordinary settled colours, bonus reset/earning, live-setting timing, invalid-value fallback, defaults, static TypeScript/Canvas direction, SRS and exclusions. The human approved PROJECT and these decisions after the published proposal was presented. No unrelated-project approvals were imported. Exact scoring/control/encoding contracts are owned by SPEC and its children.
 
 ## Pending transitions
 
-Initialization commit `fff34cd315a39166c208589c69390dcf71b8c9f3` was published/read back; issue #1 closed as completed and read back. PROJECT proposal was published/read back. The human approved it; record acceptance and close/read back issue #2 before architecture. Main preparation milestone #1 (`sdd-docs-main`) and issues #1–#9 were created from bundled fixed definitions and all associations/content read back before any preparation write. All were open at that gate. Later hosted effects must be checked before replay.
+DOCS-001–007 commits and issue closures are verified. DOCS-008 commit publication and issue #8 closure must be confirmed after this checkpoint; any failed/unknown effect blocks claiming the stop is settled. After successful readback, pause before DOCS-009. Do not perform package QC, merge preparation, close milestone #1, activate phase 1 or start implementation. Explicit advance can select the existing package-QC stage; it does not select an implementation range.
+
+Preparation milestone #1 (`sdd-docs-main`) and all nine fixed-definition issues were created/verified before preparation writes. Product tracking projection remains unstarted. No game release is published; PLAN maps phase versions to 0.1.0, 0.2.0, 0.3.0, 0.4.0 and 1.0.0.
 
 ## DOCS-002 evidence
 
@@ -70,3 +79,7 @@ Scoped autodoc preapproval; upstream completion, publication and issue closure e
 ## DOCS-007 evidence
 
 Scoped autodoc preapproval; upstream completion, publication and issue closure established. Reviewed states: `docs/dev/layout.md` blob `432075c046a914f720866e17c1e0a3506d58aeed`; `docs/dev/PLAN-REVIEW-REPORT.md` blob `e8c51c97789135fd3444b73823e5850d2660ad85`; `AGENTS.md` blob `15717585b3eae2ec4740eb7f3a959850199238b3`. Local links, heading spacing, diff whitespace and content-boundary checks passed. Required technical QC is retained in the adjacent report when applicable. Publication and issue closure are confirmed by Git/provider readback after this commit.
+
+## DOCS-008 evidence
+
+Scoped autodoc preapproval; upstream completion, publication and issue closure established. Reviewed states: `docs/dev/TASKS.md` blob `b4d3369cb2ecb3896f5e36bb3dc7835e1615d1c4`; `docs/dev/TASKS-REVIEW-REPORT.md` blob `d23182bf37c9950cc62008a735688c14e37c94bf`; `docs/dev/HANDOFF.md` blob `53d44019591de6a3cdfaa776ba2692672c35ffd7`; `README.md` blob `b15d546e2a78d17136ec9493c16f055e651e000b`; `AGENTS.md` blob `5d114bd2b2e5cf9078b97d13f681ba15c35c1539`. Local links, heading spacing, diff whitespace and content-boundary checks passed. Required technical QC is retained in the adjacent report when applicable. Publication and issue closure are confirmed by Git/provider readback after this commit.
