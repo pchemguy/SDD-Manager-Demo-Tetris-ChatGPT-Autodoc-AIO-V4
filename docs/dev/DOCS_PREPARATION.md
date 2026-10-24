@@ -46,3 +46,7 @@ Initialization commit `fff34cd315a39166c208589c69390dcf71b8c9f3` was published/r
 ## DOCS-002 evidence
 
 Human approved PROJECT and its gameplay/technical decisions in the latest message. Reviewed states: `docs/dev/PROJECT.md` blob `717d6204a510d249c84b464e0f0e20604690bf69`. Local links, heading spacing, diff whitespace and content-boundary checks passed. Required technical QC is retained in the adjacent report when applicable. Publication and issue closure are confirmed by Git/provider readback after this commit.
+
+## DOCS-003 evidence
+
+Scoped autodoc preapproval; upstream completion, publication and issue closure established. Reviewed states: `docs/dev/ARCHITECTURE.md` blob `dab4b7456d33c3a2cc298fd8fe661bf4f5923469`. Local links, heading spacing, diff whitespace and content-boundary checks passed. Required technical QC is retained in the adjacent report when applicable. Publication and issue closure are confirmed by Git/provider readback after this commit.
