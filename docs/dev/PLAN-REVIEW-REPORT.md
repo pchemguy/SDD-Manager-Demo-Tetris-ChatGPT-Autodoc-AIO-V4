@@ -2,7 +2,7 @@
 
 ## Current gate
 
-State: Ready for layout authoring; strategy-only scope. TASKS remains blocked pending combined PLAN/layout QC. Reviewed PLAN against the accepted specification/design and SPEC review Revision 1. No unresolved strategy findings; no implementation or browser execution claimed.
+State: Ready for TASKS after combined PLAN/layout review in Revision 1. Reviewed PLAN against the accepted specification/design and SPEC review Revision 1. No unresolved strategy findings; no implementation or browser execution claimed.
 
 ## Initial review
 
@@ -34,4 +34,10 @@ The plan owner traced the complete target into five integrated useful increments
 | R9 | Phase 5 sources/saves and real reload/failure behavior. |
 | R10 | Static/core/browser acceptance begins phase 1 and regresses at every changed phase boundary. |
 
-Review found no omitted target, invented product feature or whole-version first-phase overload. Phase reports, folded/standalone milestone review rule, final aggregation and post-integration releases have explicit owners/gates. Count exceptions are justified by semantic scope, not quotas. Local links, Markdown boundaries and document ownership were checked. Physical placement is not yet assessed; it remains a separate dependency before TASKS.
+Review found no omitted target, invented product feature or whole-version first-phase overload. Phase reports, folded/standalone milestone review rule, final aggregation and post-integration releases have explicit owners/gates. Count exceptions are justified by semantic scope, not quotas. Local links, Markdown boundaries and document ownership were checked. Physical placement was not assessed in this initial strategy review; Revision 1 establishes combined readiness.
+
+## Revision 1
+
+Combined PLAN/layout review: layout blob `432075c046a914f720866e17c1e0a3506d58aeed`, with unchanged PLAN and governing source identities from the initial review. All C1–C10 components route to source, pure seams, adapter/integration/browser tests and documentation/report homes. Core-facing policy values avoid a reverse dependency on configuration. Static build excludes test harnesses and protected inputs; generated browser assets are environment-owned. Existing versus intended paths are explicitly distinguished.
+
+Each phase’s milestones have a feasible integration/check path without introducing a new product feature or changing the phase strategy. The five phase counts and their small-count rationale remain applicable. No missing ownership, duplicate executable list or unresolved placement issue was found. Local links, Markdown spacing and report adjacency checked. Combined gate: Ready for TASKS; actual setup/build/browser checks remain implementation work.

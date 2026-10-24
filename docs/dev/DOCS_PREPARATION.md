@@ -66,3 +66,7 @@ Before PLAN, review identified and resolved S-001 in SPEC-REVIEW-REPORT Revision
 ## DOCS-006 evidence
 
 Scoped autodoc preapproval; upstream completion, publication and issue closure established. Reviewed states: `docs/dev/PLAN.md` blob `9834156264b9bc85d492b7bce333316d5c7ea8da`; `docs/dev/PLAN-REVIEW-REPORT.md` blob `f9991ea056b06ea4e1c98d66905da77ac0ef39a7`. Local links, heading spacing, diff whitespace and content-boundary checks passed. Required technical QC is retained in the adjacent report when applicable. Publication and issue closure are confirmed by Git/provider readback after this commit.
+
+## DOCS-007 evidence
+
+Scoped autodoc preapproval; upstream completion, publication and issue closure established. Reviewed states: `docs/dev/layout.md` blob `432075c046a914f720866e17c1e0a3506d58aeed`; `docs/dev/PLAN-REVIEW-REPORT.md` blob `e8c51c97789135fd3444b73823e5850d2660ad85`; `AGENTS.md` blob `15717585b3eae2ec4740eb7f3a959850199238b3`. Local links, heading spacing, diff whitespace and content-boundary checks passed. Required technical QC is retained in the adjacent report when applicable. Publication and issue closure are confirmed by Git/provider readback after this commit.
