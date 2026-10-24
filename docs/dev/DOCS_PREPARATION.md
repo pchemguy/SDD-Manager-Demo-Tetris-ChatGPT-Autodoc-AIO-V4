@@ -18,7 +18,7 @@ One pass covers a playable classic browser Tetris baseline, Hold, ghost, 7-bag, 
 | Task | Current evidence / decision basis |
 | --- | --- |
 | DOCS-001 | All four existing root files retained unchanged; verification below. Default provenance scaffold integrated and remotely verified. Task list and HANDOFF established with this completion. |
-| DOCS-002 | PROJECT proposal pending; human acceptance required. |
+| DOCS-002 | PROJECT proposed at Git blob `83e393675474b174e2d52019ef90b7ee5ec5d0c6`; human acceptance required. Scope, seed preservation, proposal provenance and document-content boundaries reviewed. Independent read-only builder review found no scope/persistence contradictions. Clarified lateral/rotational penetration, activation on support and airborne deadline consequences; removed a preparation-process sentence. Local links, heading spacing, proposal identity and DOCS checkbox counts verified. No browser/runtime checks performed or needed for this brief. No dependent design started. |
 | DOCS-003–008 | Not started; scoped autodoc preapproval applies after prerequisites. |
 | DOCS-009 | Not started; excluded by current autodoc stop. |
 
@@ -35,6 +35,10 @@ One pass covers a playable classic browser Tetris baseline, Hold, ghost, 7-bag, 
 - `AGENTS.md`: SHA-256 `7ff5e248253507a77a39ddaf3e4b267655951758152a13680209c30b712345ea`.
 - `SKILL_DISCOVERY_PROTOCOL.md`: SHA-256 `ae6fd000ed174d13706689148ab9ab20cd26ed5826ead72829679905bd44f5ec`.
 
+## Proposed decisions for PROJECT
+
+The original request governs complete target scope. PROJECT’s named proposals cover a 10×20 board, the occupied-cell midline rule, a non-resetting first-grounding deadline, penetrator safe-landing rejection, disabled Hold while penetrator is active, ordinary settled colours, bonus reset/earning, live-setting timing, invalid-value fallback, defaults, static TypeScript/Canvas direction, SRS and exclusions. All remain proposed until human acceptance of that exact brief. No unrelated-project approvals were imported. Exact scoring/control/encoding details remain for SPEC.
+
 ## Pending transitions
 
-Initialization commit publication and issue #1 closure require readback after this snapshot. Main preparation milestone #1 (`sdd-docs-main`) and issues #1–#9 were created from bundled fixed definitions and all associations/content read back before any preparation write. All were open at that gate. Later hosted effects must be checked before replay.
+Initialization commit `fff34cd315a39166c208589c69390dcf71b8c9f3` was published/read back; issue #1 closed as completed and read back. PROJECT proposal publication requires readback, then human review. DOCS-002 remains unchecked and issue #2 open. Main preparation milestone #1 (`sdd-docs-main`) and issues #1–#9 were created from bundled fixed definitions and all associations/content read back before any preparation write. All were open at that gate. Later hosted effects must be checked before replay.
