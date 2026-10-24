@@ -14,11 +14,11 @@ Provide a responsive single-player browser Tetris game for keyboard players, wit
 - Six side-panel settings: ghost visibility; hard drop enabled; next preview enabled; hard-drop lock follows general policy or is immediate; general lock on failed downward attempt or after a full gravity interval; Hold enabled.
 - Per-setting persistence resolves valid explicit URL value, then valid saved cookie, then default. A setting change updates its cookie and URL parameter. Valid explicit URL values, even defaults, are saved to cookies. An omitted parameter preserves its cookie value. Session configuration may precede persistence as a delivered increment.
 
-## Proposed gameplay decisions
+## Gameplay decisions
 
-These proposals resolve consequential gaps in the supplied scope and require confirmation with this brief. They are not claimed as prior user decisions.
+The following decisions govern interactions and boundary cases.
 
-| Concern | Proposed resolution and reason |
+| Concern | Resolution and reason |
 | --- | --- |
 | Playfield | Ten columns and twenty visible rows, with spawn space above. Use the occupied ghost cells for visibility decisions, not empty cells in its shape box. |
 | Ghost straddling the midline | Show the dynamic ghost only when every occupied ghost cell is in the lower half: its topmost cell is at or below row 10, counting visible rows from zero. Hide the entire ghost when any part is above the midline. |
@@ -31,13 +31,13 @@ These proposals resolve consequential gaps in the supplied scope and require con
 | Invalid configuration | Treat an invalid URL value as absent for that setting, falling back to its valid cookie then default. Never save invalid values. Invalid cookies fall back to default. Preserve unrelated URL parameters and the fragment. If persistence is unavailable, continue playable session settings and show a concise status. |
 | Defaults | Ghost always shown; hard drop, next preview and Hold on; general lock after one full gravity interval; hard drop follows general lock. |
 
-## Proposed technical direction and exclusions
+## Technical direction and exclusions
 
-Use TypeScript, Canvas for the board and native HTML controls for settings and status, with a static deployable build and no backend. This provides direct control over the board and keeps the configuration keyboard accessible. A DOM-rendered board is a viable alternative with easier cell inspection; a UI framework is also possible but adds machinery unnecessary for this scope. The recommended direction is a proposal, not a pre-existing repository stack.
+Use TypeScript, Canvas for the board and native HTML controls for settings and status, with a static deployable build and no backend. This provides direct control over the board and keeps the configuration keyboard accessible. A DOM-rendered board is a viable alternative with easier cell inspection; a UI framework is also possible but adds machinery unnecessary for this scope. Use this focused stack for static browser delivery.
 
 Use SRS wall kicks for a defined, testable rotation system. Exact controls, scoring, speed curve, spawn rules, random injection seams and configuration encodings belong in the specification. Keep conventional keyboard controls and avoid consuming gameplay hotkeys while a form control has focus. Include pause and restart to support practical play.
 
-Proposed exclusions are multiplayer, backend leaderboards/accounts, touch controls, audio and exact certification against a commercial Tetris guideline. Board and status should remain readable, with accessible control labels and visible focus. Chromium is primary and Firefox is included under the repository browser policy; use isolated managed test environments.
+Exclusions are multiplayer, backend leaderboards/accounts, touch controls, audio and exact certification against a commercial Tetris guideline. Board and status should remain readable, with accessible control labels and visible focus. Chromium is primary and Firefox is included under the repository browser policy; use isolated managed test environments.
 
 ## Delivery and success
 

@@ -4,10 +4,10 @@
 
 - Mode: autodoc/onepass, selected by the user’s project request.
 - Scope: complete Tetris target in the original request; no later scope passes.
-- Approval basis: PROJECT approval remains active. ARCHITECTURE through TASKS checkpoints are preapproved by autodoc selection. No implementation range is selected.
+- Approval basis: PROJECT approval was granted for proposal commit `261504b2e484ea91aff459d1da1931142fef728a`; its gameplay and technical decisions are accepted. ARCHITECTURE through TASKS checkpoints are preapproved by autodoc selection. No implementation range is selected.
 - Tracking: enabled for preparation and implementation by root AGENTS.md. Every owned commit must be pushed and read back before progression.
 - Reporting: Standard, following Explicit bootstrap.
-- Next boundary: publish PROJECT proposal and obtain human acceptance before dependent design. Stop after DOCS-008 before DOCS-009 unless explicitly advanced.
+- Next boundary: complete the preapproved dependent documents through DOCS-008. Stop after DOCS-008 before DOCS-009 unless explicitly advanced.
 
 ## Scope sequence
 
@@ -35,10 +35,14 @@ One pass covers a playable classic browser Tetris baseline, Hold, ghost, 7-bag, 
 - `AGENTS.md`: SHA-256 `7ff5e248253507a77a39ddaf3e4b267655951758152a13680209c30b712345ea`.
 - `SKILL_DISCOVERY_PROTOCOL.md`: SHA-256 `ae6fd000ed174d13706689148ab9ab20cd26ed5826ead72829679905bd44f5ec`.
 
-## Proposed decisions for PROJECT
+## Accepted decisions for PROJECT
 
-The original request governs complete target scope. PROJECT’s named proposals cover a 10×20 board, the occupied-cell midline rule, a non-resetting first-grounding deadline, penetrator safe-landing rejection, disabled Hold while penetrator is active, ordinary settled colours, bonus reset/earning, live-setting timing, invalid-value fallback, defaults, static TypeScript/Canvas direction, SRS and exclusions. All remain proposed until human acceptance of that exact brief. No unrelated-project approvals were imported. Exact scoring/control/encoding details remain for SPEC.
+The original request governs complete target scope. PROJECT’s named proposals cover a 10×20 board, the occupied-cell midline rule, a non-resetting first-grounding deadline, penetrator safe-landing rejection, disabled Hold while penetrator is active, ordinary settled colours, bonus reset/earning, live-setting timing, invalid-value fallback, defaults, static TypeScript/Canvas direction, SRS and exclusions. The human approved PROJECT and these decisions after the published proposal was presented. No unrelated-project approvals were imported. Exact scoring/control/encoding details remain for SPEC.
 
 ## Pending transitions
 
-Initialization commit `fff34cd315a39166c208589c69390dcf71b8c9f3` was published/read back; issue #1 closed as completed and read back. PROJECT proposal publication requires readback, then human review. DOCS-002 remains unchecked and issue #2 open. Main preparation milestone #1 (`sdd-docs-main`) and issues #1–#9 were created from bundled fixed definitions and all associations/content read back before any preparation write. All were open at that gate. Later hosted effects must be checked before replay.
+Initialization commit `fff34cd315a39166c208589c69390dcf71b8c9f3` was published/read back; issue #1 closed as completed and read back. PROJECT proposal was published/read back. The human approved it; record acceptance and close/read back issue #2 before architecture. Main preparation milestone #1 (`sdd-docs-main`) and issues #1–#9 were created from bundled fixed definitions and all associations/content read back before any preparation write. All were open at that gate. Later hosted effects must be checked before replay.
+
+## DOCS-002 evidence
+
+Human approved PROJECT and its gameplay/technical decisions in the latest message. Reviewed states: `docs/dev/PROJECT.md` blob `717d6204a510d249c84b464e0f0e20604690bf69`. Local links, heading spacing, diff whitespace and content-boundary checks passed. Required technical QC is retained in the adjacent report when applicable. Publication and issue closure are confirmed by Git/provider readback after this commit.
