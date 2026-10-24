@@ -54,3 +54,7 @@ Scoped autodoc preapproval; upstream completion, publication and issue closure e
 ## DOCS-004 evidence
 
 Scoped autodoc preapproval; upstream completion, publication and issue closure established. Reviewed states: `docs/dev/DECOMPOSITION.md` blob `f177558795d0ab9421fab4807cbaa307b07b6ef2`; `docs/dev/ARCHITECTURE.md` blob `e43684b16512d0d5b293a75ff6647bfbcf414d5e`. Local links, heading spacing, diff whitespace and content-boundary checks passed. Required technical QC is retained in the adjacent report when applicable. Publication and issue closure are confirmed by Git/provider readback after this commit.
+
+## DOCS-005 evidence
+
+Scoped autodoc preapproval; upstream completion, publication and issue closure established. Reviewed states: `docs/dev/SPEC.md` blob `8ed3b833d71fb7d45dcf9b6a8415452f3381f13a`; `docs/dev/spec/GAMEPLAY.md` blob `0b03edbf61cdf0215a7a62151c793e82778b6f72`; `docs/dev/spec/ROTATION.md` blob `36c8868c4c91ae4c5ae8cec6951e3fd4a3a68d53`; `docs/dev/spec/CONFIGURATION.md` blob `edb8e1a81b3dbcf30411c10ea07a27565262aafb`; `docs/dev/SPEC-REVIEW-REPORT.md` blob `ecaef7d3ec51e8f1559ba2605b9663f4d22f01c8`. Local links, heading spacing, diff whitespace and content-boundary checks passed. Required technical QC is retained in the adjacent report when applicable. Publication and issue closure are confirmed by Git/provider readback after this commit.
